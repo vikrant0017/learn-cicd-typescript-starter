@@ -6,7 +6,7 @@ describe("Parses API KEY", () => {
     const apiKey = getAPIKey({
       'authorization': 'ApiKey abc123'
     })
-    expect(apiKey).toBe('abc12')
+    expect(apiKey).toBe('abc123')
   })
 })
 
