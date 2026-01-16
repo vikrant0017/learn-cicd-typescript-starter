@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { getAPIKey } from '../api/auth.ts'
+import { getAPIKey } from '../api/auth'
 
 describe("Parses API KEY", () => {
   it('should correctly parse the API KEY from Auth headers', () => {
